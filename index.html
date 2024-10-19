@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- end -->
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- end -->
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="component/navbar.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>TravGO</title>
+  </head>
+  <body>
+    <div id="loading">
+      <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+
+    <div class="home-page" id="content">
+      <div class="navbar">
+        <div class="navbar-brand">
+          <img src="assets/icon-1.png" alt="" />
+          <h1><span>TRAV</span>GO</h1>
+        </div>
+        <div class="navbar-nav">
+          <a href="#" class="navbar-link">Beranda</a>
+          <a href="#about" class="navbar-link">Tentang Kami</a>
+          <a href="#destinasi" class="navbar-link">Destinasi</a>
+        </div>
+      </div>
+      <div class="home-content">
+        <div class="up">
+          <div class="content-title">
+            <h1>
+              Pesona Wisata <span id="text-typed"></span> <br />
+              <span id="spn">Probolinggo</span>
+            </h1>
+          </div>
+          <div class="icon-luar"></div>
+          <div class="icon-luar"></div>
+          <div class="icon">
+            <img src="assets/icon-2.png" id="icon-2" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- home page -->
+
+    <div class="about-page" id="about" id="content">
+      <div class="page">
+        <div class="circle"></div>
+        <div class="row">
+          <div class="left col">
+            <div class="about-title">
+              <h5 class="item-1">Informasi Kami</h5>
+              <h3>Tim Kreatif yang Mewujudkan Pengalaman Wisata Digital</h3>
+            </div>
+            <div class="col col-hidden">
+              <div class="container">
+                <div class="box">
+                  <div class="box">
+                    <img src="assets/1.jpg" alt="" />
+                  </div>
+                  <div class="box">
+                    <img src="assets/2.jpg" alt="" />
+                  </div>
+                  <div class="box">
+                    <img src="assets/1-1.jpg" alt="" />
+                  </div>
+                  <div class="box">
+                    <img src="assets/1-2.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <h3>
+                Selamat datang di situs wisata Kabupaten Probolinggo! Kami hadir
+                untuk memperkenalkan berbagai destinasi wisata menarik di daerah
+                ini, mulai dari keindahan Gunung Bromo hingga pesona pantai dan
+                budaya lokal yang kaya. Jelajahi keindahan dan keragaman
+                Probolinggo!
+              </h3>
+              <div class="icon-contact">
+                <span>
+                  <!-- <i class="ri-instagram-line"></i>
+                  <i class="ri-twitter-x-fill"></i>
+                  <i class="ri-facebook-fill"></i> -->
+                </span>
+              </div>
+            </div>
+            <div class="btn-more">
+              <a href="#destinasi">Jelajahi</a>
+            </div>
+          </div>
+          <div class="col col-1">
+            <div class="container">
+              <div class="box">
+                <div
+                  class="box"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <img src="assets/1.jpg" alt="" />
+                </div>
+                <div
+                  class="box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <img src="assets/2.jpg" alt="" />
+                </div>
+                <div
+                  class="box"
+                  data-aos="fade-up"
+                  data-aos-delay="150"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <img src="assets/1-1.jpg" alt="" />
+                </div>
+                <div
+                  class="box"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <img src="assets/1-2.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <!-- Anout Page -->
+
+    <div class="destinasi-page" id="destinasi" id="content">
+      <div class="content">
+        <div class="recomendasi">
+          <div class="title">
+            <h2>Rekomendasi Terbaik</h2>
+            <span></span>
+            <div class="pop">
+              <span><i class="ri-fire-fill"></i></span>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="category-content">
+              <div class="category">
+                <div
+                  class="left-item"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <h4
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    class="active"
+                    id="Paling Populer"
+                  >
+                    Paling Populer
+                  </h4>
+                  <h4
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="gunung"
+                  >
+                    Gunung
+                  </h4>
+                  <h4
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="pantai"
+                  >
+                    Pantai
+                  </h4>
+                  <h4
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos="fade-up"
+                    data-aos-delay="250"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="danau"
+                  >
+                    Danau
+                  </h4>
+                  <h4
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="air terjun"
+                  >
+                    Air Terjun
+                  </h4>
+                  <h4
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos="fade-up"
+                    data-aos-delay="350"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="taman"
+                  >
+                    Taman
+                  </h4>
+                </div>
+                <div class="right-item">
+                  <span>
+                    <input
+                      type="text"
+                      name=""
+                      id="input-category"
+                      autocomplete="none"
+                    />
+                    <i class="ri-menu-search-line" id="search"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-scroll">
+                  <div
+                    class="item"
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="gunung"
+                  >
+                    <div class="box">
+                      <img src="assets/bromo.jpg" alt="" />
+                      <div class="description">
+                        <div class="rating">
+                          <span><i class="ri-star-fill"></i>4.9</span>
+                        </div>
+                        <div class="down">
+                          <div class="pn">
+                            <h4>Gunung Bromo</h4>
+                          </div>
+                          <div class="price-item">
+                            <div class="loc">
+                              <span>
+                                <i class="ri-map-pin-2-fill"></i>
+                                <p>Kec. Tosari, Kab. Probolinggo</p>
+                              </span>
+                            </div>
+                            <div class="price">
+                              <p>Rp. 220.000,00</p>
+                            </div>
+                          </div>
+                          <div class="text">
+                            <p style="display: none">
+                              Gunung Bromo terletak di Kabupaten Probolinggo.
+                              Gunung Bromo memiliki ketinggian sekitar 2392
+                              mdpl. Memiliki kawah yang menjadi objek utama yang
+                              sering dikunjungi oleh wisatawan
+                              asing maupun lokal.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="danau"
+                  >
+                    <div class="box">
+                      <img src="assets/ranuagung.webp" alt="" />
+                      <div class="description">
+                        <div class="rating">
+                          <span><i class="ri-star-fill"></i>4.8</span>
+                        </div>
+                        <div class="down">
+                          <div class="pn">
+                            <h4>Danau Ranu Agung</h4>
+                          </div>
+                          <div class="price-item">
+                            <div class="loc">
+                              <span>
+                                <i class="ri-map-pin-2-fill"></i>
+                                <p>Kec. Tiris, Kab. Probolinggo</p>
+                              </span>
+                            </div>
+                            <div class="price">
+                              <p>Rp. 3.000,00</p>
+                            </div>
+                          </div>
+                          <div class="text">
+                            <p style="display: none">
+                              Ranu Agung Probolinggo adalah danau vulkanik yang
+                              awalnya terbentuk dari gunung Lamongan atau
+                              Lemongan yang masih aktif. Danau ini punya nama
+                              lain yaitu Ranu Tebing. Ranu Agung ini berada di
+                              ketinggian 525 mdpl dengan ketinggian sekitar 133
+                              ha. Danau ini layaknya hidden gem, karena memang
+                              tidak terlalu banyak orang-orang yang tahu lokasi
+                              danau. Selain itu, tidak sepopuler ranu lainnya
+                              yang ada di Indonesia tapi untuk eksotisme danau
+                              punya pesona yang memukau. Lokasi danau ini cukup
+                              dekat dengan arung jeram terkenal yaitu Camp Songa
+                              Rafting Adventure. Jadi jika kamu berkesempatan
+                              untuk mengunjungi arung jeram satu ini maka jangan
+                              lupa singgah ke Ranu Agung.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item"
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="pantai"
+                  >
+                    <div class="box">
+                      <img src="assets/pantai-bentar.jpeg" alt="" />
+                      <div class="description">
+                        <div class="rating">
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="down">
+                          <div class="pn">
+                            <h4>Pantai Bentar</h4>
+                          </div>
+                          <div class="price-item">
+                            <div class="loc">
+                              <span>
+                                <i class="ri-map-pin-2-fill"></i>
+                                <p>Kec. Gending, Kab. Probolinggo</p>
+                              </span>
+                            </div>
+                            <div class="price">
+                              <p>Rp 20.000,00</p>
+                            </div>
+                          </div>
+                          <div class="text">
+                            <p style="display: none">
+                              Pantai Bentar terletak di Desa Curahsawo,
+                              Kecamatan Gending, Kabupaten Probolinggo, Jawa
+                              Timur. Bagi Anda yang datang dari Kota
+                              Probolinggo, Pantai Bentar hanya berjarak sekitar
+                              35 kilometer dengan waktu tempuh sekitar satu jam.
+                              Rute perjalanan yang disarankan adalah melalui
+                              Jalan Mayjen Widodo, Jalan Raya Wangkal, dan Jalan
+                              Raya Pantura. Tempat ini adalah perwujudan impian
+                              bagi para pencinta pantai. Saat Anda tiba di sini,
+                              mata Anda akan langsung dimanjakan oleh pesona
+                              alamnya yang memesona. Ombak yang relatif tenang
+                              menggulung pelan di bibir pantai, menciptakan
+                              suasana yang damai dan menenangkan. Pasir halus
+                              yang membentang luas adalah undangan sempurna
+                              untuk berjalan-jalan telanjang kaki sambil
+                              merasakan sentuhan lembutnya. Pohon-pohon rindang
+                              yang tumbuh di sekitar pantai memberikan naungan
+                              yang nyaman dan mewujudkan suasana sejuk. Ini
+                              adalah tempat yang ideal untuk melepaskan diri
+                              dari hiruk-pikuk kehidupan sehari-hari dan
+                              menikmati kedamaian alam.WIB
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="air terjun"
+                  >
+                    <div class="box">
+                      <img src="assets/madakaripura.jpg" alt="" />
+                      <div class="description">
+                        <div class="rating">
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="down">
+                          <div class="pn">
+                            <h4>Air Terjun Madakaripura</h4>
+                          </div>
+                          <div class="price-item">
+                            <div class="loc">
+                              <span>
+                                <i class="ri-map-pin-2-fill"></i>
+                                <p>Kec. Lumbang, Kab. Probolinggo</p>
+                              </span>
+                            </div>
+                            <div class="price">
+                              <p>Rp 20.000,00</p>
+                            </div>
+                          </div>
+                          <div class="text">
+                            <p style="display: none">
+                              Air terjun Madakaripura adalah sebuah air terjun
+                              yang terletak di Kecamatan Lumbang, Kabupaten
+                              Probolinggo, Provinsi Jawa Timur. Air terjun
+                              setinggi 200 meter ini merupakan air terjun
+                              tertinggi di Pulau Jawa dan tertinggi
+                              kedua di Indonesia.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="item"
+                    data-aos="fade-up"
+                    data-aos-delay="250"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    id="taman"
+                  >
+                    <div class="box">
+                      <img
+                        src="https://assets-a1.kompasiana.com/items/album/2019/09/19/img-20190818-175119-5d839b470d823044ef12c604.jpg"
+                        alt=""
+                      />
+                      <div class="description">
+                        <div class="rating">
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="down">
+                          <div class="pn">
+                            <h4>BeeJay Bakau Resort (BJBR)</h4>
+                          </div>
+                          <div class="price-item">
+                            <div class="loc">
+                              <span>
+                                <i class="ri-map-pin-2-fill"></i>
+                                <p>kKec. Mayangan, Kab. Probolinggo</p>
+                              </span>
+                            </div>
+                            <div class="price">
+                              <p>Rp 30.000,00</p>
+                            </div>
+                          </div>
+                          <div class="text">
+                            <p style="display: none">
+                              BJBR Probolinggo (BeeJay Bakau Resort) adalah
+                              destinasi ekowisata yang menggabungkan keindahan
+                              alam hutan mangrove dengan fasilitas rekreasi
+                              modern. Tempat ini terkenal dengan jembatan kayu
+                              panjang yang memungkinkan pengunjung menjelajahi
+                              hutan bakau, sambil menikmati pemandangan pesisir.
+                              BJBR juga memiliki restoran, penginapan, dan area
+                              rekreasi yang cocok untuk wisata keluarga maupun
+                              pecinta alam. Alamatnya: Pelabuhan Perikanan
+                              Mayangan, Mangunharjo, Kec. Mayangan, Kota
+                              Probolinggo, Jawa Timur 67217.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="brand">
+              <div class="brand-scroll">
+                <div class="testimony">
+                  <div class="testi-card">
+                    <div class="top">
+                      <h4>Abkolik</h4>
+                    </div>
+                    <div class="text">
+                      <p>
+                        Salah satu destinasi yang wajib dikunjungi kalau lagi di
+                        Pasuruan nih. siapa yang ga kepengen ke bromo coba hehe.
+                        segala view bener bener memanjakan mata bangettt. tapi
+                        ya cuma panas bgt emang wkwkwk. segala sudut itu spot
+                        foto banget. cocok di jam subuh sampe 9an doang. setelah
+                        itu panas doanggg 😭😭 next pokoknya mau kesini lagi
+                        dongg !!!!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testi-card">
+                    <div class="top">
+                      <h4>Dya Iganov</h4>
+                    </div>
+                    <div class="text">
+                      <p>
+                        Salah satu objek wisata andalan Kecamatan Tiris.
+                        Dibandingkan danau lainnya, fasilitas penunjang wisata
+                        Ranu Segaran terbilang paling lengkap. Terdapat gazebo,
+                        perahu-perahu kecil aneka bentuk, rumah homestay, dekat
+                        dengan sumber air panas, musolla dll. Akses jalan masuk
+                        dari jalan raya utama Kec. Tiris cukup baik
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testi-card">
+                    <div class="top">
+                      <h4>Muhammad Widodo</h4>
+                    </div>
+                    <div class="text">
+                      <p>
+                        - pengalaman yang sangat Menyenangkan, Pemandu Tour
+                        sangat Ramah meng Edukasi wisatawan. - Kuliner sangat
+                        khas wilayah Pesisir, - Harga cemilan, minuman & Rokok
+                        tidak ada kenaikan Harga signifikan ( Harga stabil walau
+                        berada di Tempat Wisata )
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-2">
+        <div class="recomendasi">
+          <div class="title">
+            <h2>Wisata Lainnya</h2>
+            <span></span>
+          </div>
+          <div class="card-content">
+            <div class="content-destinasi">
+              <div class="destinasi-scroll">
+                <div
+                  class="item-destinasi"
+                  id="gunung"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <div class="box-2">
+                    <img src="assets/gili-ketapang.jpeg" alt="" />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Gili Ketapang</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Sumberasih, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Gunung Bromo terletak di Kabupaten Probolinggo.
+                            Gunung Bromo memiliki ketinggian sekitar 2392 mdpl.
+                            Memiliki kawah yang menjadi objek utama yang sering
+                            dikunjungi oleh wisatawan asing maupun lokal.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="item-destinasi"
+                  id="air terjun"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <div class="box-2">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Pemandian Air Panas</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Tiris, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Pemandian Air Panas Tiris di Kabupaten Probolinggo
+                            adalah tempat wisata alam yang populer untuk
+                            berendam dan relaksasi. Terletak di Kecamatan Tiris,
+                            pemandian ini berada di ketinggian sekitar 500 meter
+                            di atas permukaan laut, yang membuat udara di
+                            sekitarnya sejuk dan segar. Air panas di pemandian
+                            ini mengandung belerang, yang dipercaya memiliki
+                            manfaat untuk kesehatan kulit dan meredakan nyeri
+                            otot. Pemandian ini memiliki beberapa kolam dengan
+                            suhu yang bervariasi, mulai dari kolam dengan air
+                            hangat sedang hingga kolam dengan air yang lebih
+                            panas. Pengunjung dapat memilih kolam sesuai dengan
+                            kenyamanan masing-masing. Selain itu, pemandian ini
+                            tidak memiliki bau menyengat, meskipun mengandung
+                            belerang, sehingga lebih nyaman bagi pengunjung yang
+                            memiliki sensitivitas terhadap bau kuat. Lokasi
+                            pemandian air panas ini juga berdekatan dengan objek
+                            wisata lain, seperti Danau Ranu Segaran. Hal ini
+                            memungkinkan pengunjung untuk menikmati wisata alam
+                            lainnya setelah berendam. Pemandian Air Panas Tiris
+                            dikelilingi oleh pemandangan alam yang indah,
+                            sehingga cocok untuk berlibur dan menghilangkan
+                            penat. Harga tiket masuk pemandian ini sangat
+                            terjangkau, sekitar Rp5.000 hingga Rp10.000 per
+                            orang. Wisata ini dapat menjadi pilihan menarik bagi
+                            wisatawan yang ingin menikmati suasana alam dengan
+                            biaya yang relatif murah【17†source】【18†source】.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="item-destinasi"
+                  id="gunung"
+                  data-aos="fade-up"
+                  data-aos-delay="150"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <div class="box-2">
+                    <img
+                      src="https://i.pinimg.com/564x/40/1a/39/401a39e149a07141c36074b50a705ba7.jpg"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Bukit Teletubis</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>TN. Bromo Tengger Semeru.</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Bukit yang terletak di kawasan Taman Nasional Bromo
+                            Tengger Semeru. Tempat ini disebut Bukit Teletubbies
+                            karena hamparan rumput hijaunya yang mirip dengan
+                            bukit di acara TV Teletubbies.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="item-destinasi"
+                  id="gunung"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <div class="box-2">
+                    <img
+                      src="https://i.pinimg.com/564x/e1/b8/77/e1b877db516569f3d99bfe3d33f684ae.jpg"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Candi Jabung</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Des. Jabung - Paiton - Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Candi peninggalan Majapahit yang terbuat dari batu
+                            merah. Lokasinya berada di Desa Jabung, Kecamatan
+                            Paiton. Candi ini memiliki nilai sejarah dan
+                            arsitektur yang menarik.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="item-destinasi"
+                  id="gunung"
+                  data-aos="fade-up"
+                  data-aos-delay="250"
+                  data-aos-duration="600"
+                  data-aos-easing="ease-in-out"
+                >
+                  <div class="box-2">
+                    <img
+                      src="https://www.wartabromo.com/wp-content/uploads/2024/02/img20240128125738_burst000_cover_11zon7043189084706667247.jpg"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Gili Ketapang</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Des. Randutatah - Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Pantai Greenthing, terletak di Desa Randutatah,
+                            Kecamatan Paiton, dikenal dengan keindahan dan
+                            pesonanya. Pantai ini lebih dari sekadar pasir dan
+                            laut, menawarkan pengalaman wisata yang menarik.
+                            Saat ini, wisata di pantai ini dikelola oleh BUMDes
+                            Duta Bahari.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="content-destinasi">
+              <div class="destinasi-scroll-2">
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img
+                      src="https://i.pinimg.com/564x/d9/49/4c/d9494cd1629cc35351bbfcdc8067e86e.jpg"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Danau Ronggojalu</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Tegal Siwalan, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 10.000,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            **Danau Ronggojalu** adalah objek wisata alam yang
+                            terletak di Desa Tegalsiwalan, Kecamatan
+                            Tegalsiwalan, Kabupaten Probolinggo. Danau ini
+                            merupakan danau alami yang memiliki sumber air
+                            jernih dan segar. Selain digunakan sebagai destinasi
+                            wisata, air dari Danau Ronggojalu juga dimanfaatkan
+                            oleh masyarakat sekitar untuk keperluan irigasi
+                            pertanian dan sebagai sumber air minum. Beberapa
+                            kegiatan yang bisa dinikmati di Danau Ronggojalu
+                            meliputi berenang, bermain perahu, atau sekadar
+                            bersantai di tepi danau sambil menikmati
+                            pemandangan. Fasilitas yang tersedia cukup lengkap,
+                            seperti area parkir, warung makan, dan tempat duduk
+                            untuk bersantai. Danau ini juga dikelilingi oleh
+                            pepohonan yang rimbun, memberikan suasana yang sejuk
+                            dan cocok untuk tempat rekreasi keluarga.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Ranu Segaran</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Des. Segaran - Tiris - Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Ranu Segaran adalah sebuah danau yang terletak di
+                            Desa Segaran, Kecamatan Tiris, Kabupaten
+                            Probolinggo, dengan ketinggian sekitar 600 mdpl.
+                            Danau ini menjadi salah satu tujuan wisata alam di
+                            Kabupaten Probolinggo dan berjarak sekitar 34
+                            kilometer dari pusat Kota Probolinggo, yang dapat
+                            ditempuh dalam waktu sekitar satu jam enam menit
+                            perjalanan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img src="assets/taman-hidup.jpg" alt="" />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Taman Hidup</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Krucil, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Taman Hidup adalah danau yang terletak di jalur
+                            pendakian Gunung Argopuro, Kabupaten Probolinggo,
+                            Indonesia. Danau ini memiliki daya tarik tersendiri,
+                            termasuk sebuah dermaga kayu tua. Taman Hidup berada
+                            di lembah Gunung Argopuro yang memiliki ketinggian
+                            3088 meter di atas permukaan laut.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img
+                      src="https://i.pinimg.com/564x/15/66/e5/1566e5be50290d75a756f0b44a53a4af.jpg"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Pasir Berbisik</h4>
+                          <span><i class="ri-star-fill"></i>4.5</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Sukapura, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 34.000,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Pasir Berbisik adalah sebuah film Indonesia tahun
+                            2001 yang disutradarai oleh Nan Achnas. Selain itu,
+                            Pasir Berbisik juga merujuk pada sebuah lokasi di
+                            area Bromo, yaitu hamparan pasir yang luas yang
+                            terletak di sebelah timur kawah Bromo.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Puncak P30</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Sukapura, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 0</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Gunung P30, juga dikenal sebagai Pundak Lembu,
+                            adalah bagian dari Taman Nasional Bromo Tengger
+                            Semeru yang terletak di Kabupaten Probolinggo.
+                            Dengan ketinggian 2.635 meter di atas permukaan
+                            laut, Gunung P30 lebih tinggi daripada Gunung Bromo
+                            yang memiliki ketinggian 2.329 mdpl. Destinasi ini
+                            merupakan tempat wisata baru yang menarik bagi para
+                            pengunjung yang ingin menikmati keindahan alam.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img
+                      src="https://i.pinimg.com/564x/2a/d1/90/2ad1900556e92f4820841c56806c9955.jpg"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Seruni Point</h4>
+                          <span><i class="ri-star-fill"></i>4.7</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Sukapura, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 10.000,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Seruni Point adalah salah satu spot terbaik untuk
+                            menikmati pemandangan Gunung Bromo dan sekitarnya di
+                            Kabupaten Probolinggo. Terletak di Desa Ngadisari,
+                            Kecamatan Sukapura, Seruni Point menawarkan
+                            pemandangan yang memukau, terutama saat matahari
+                            terbit. Dari sini, pengunjung dapat melihat Gunung
+                            Bromo, Gunung Batok, dan Gunung Semeru yang berdiri
+                            megah, serta lautan pasir yang terbentang luas.
+                            Keunikan Seruni Point adalah adanya anak tangga yang
+                            cukup panjang untuk mencapai titik pandangnya, yang
+                            dihiasi dengan gapura bergaya Bali di bagian atas.
+                            Tempat ini juga memiliki fasilitas yang memadai
+                            seperti area parkir, tempat istirahat, dan warung
+                            makan. Pemandangan dari Seruni Point tidak hanya
+                            menarik bagi fotografer, tetapi juga bagi siapa saja
+                            yang ingin menikmati keindahan alam Gunung Bromo
+                            dari sudut pandang yang berbeda.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      alt=""
+                    />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Pantai Bahak Indah</h4>
+                          <span><i class="ri-star-fill"></i>4.5</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Tongas, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 211.650,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Gunung Bromo terletak di Kabupaten Probolinggo.
+                            Gunung Bromo memiliki ketinggian sekitar 2392 mdpl.
+                            Memiliki kawah yang menjadi objek utama yang sering
+                            dikunjungi oleh wisatawan asing maupun lokal.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img src="assets/bukit-watu-gligir.jpg" alt="" />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Bukit Watu Gligir</h4>
+                          <span><i class="ri-star-fill"></i>4.4</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Kotaanyar, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 10.000,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Bukit Watu Gligir adalah destinasi wisata alam yang
+                            terletak di Kecamatan Kotaanyar, Kabupaten
+                            Probolinggo. Bukit ini terkenal dengan formasi
+                            batuan alami yang unik dan pemandangan alam yang
+                            memukau. Dari puncaknya, pengunjung dapat menikmati
+                            panorama pedesaan, perbukitan, serta garis pantai
+                            yang terlihat dari kejauhan. Bukit ini menjadi
+                            tempat favorit bagi para pendaki pemula dan pecinta
+                            alam yang ingin menikmati keindahan alam dengan
+                            akses yang relatif mudah. Fasilitas di Bukit Watu
+                            Gligir masih tergolong sederhana, tetapi terdapat
+                            area parkir dan beberapa spot foto yang menarik.
+                            Tempat ini juga sering digunakan sebagai lokasi
+                            berkemah atau sekadar bersantai sambil menikmati
+                            pemandangan matahari terbit dan terbenam.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-destinasi" id="gunung">
+                  <div class="box-2">
+                    <img src="assets/bukit-dami.webp" alt="" />
+                    <div class="description">
+                      <div class="down">
+                        <div class="pn">
+                          <h4>Bukit Dami</h4>
+                          <span><i class="ri-star-fill"></i>4.6</span>
+                        </div>
+                        <div class="price-item">
+                          <div class="loc">
+                            <span>
+                              <i class="ri-map-pin-2-fill"></i>
+                              <p>Kec. Leces, Kab. Probolinggo</p>
+                            </span>
+                          </div>
+                          <div class="price">
+                            <p>Rp. 10.000,00</p>
+                          </div>
+                        </div>
+                        <div class="text">
+                          <p style="display: none">
+                            Bukit Dami adalah destinasi wisata alam yang
+                            terletak di Kecamatan Krucil, Kabupaten Probolinggo.
+                            Bukit ini menawarkan pemandangan alam yang memukau
+                            dengan suasana yang asri dan udara yang sejuk. Dari
+                            puncak Bukit Dami, pengunjung dapat menikmati
+                            panorama perbukitan, lembah, serta hamparan
+                            pepohonan yang hijau. Tempat ini menjadi pilihan
+                            yang tepat bagi pecinta alam dan fotografi, terutama
+                            untuk menikmati pemandangan matahari terbit atau
+                            terbenam. Fasilitas di Bukit Dami mencakup area
+                            parkir, tempat beristirahat, dan spot foto yang
+                            disediakan untuk pengunjung. Ada juga beberapa
+                            warung kecil yang menjual makanan dan minuman
+                            ringan.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pop-up structure -->
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <span id="close-btn"><i data-feather="x"></i></span>
+        <div class="popup-scroll">
+          <img id="popup-image" src="" alt="Place Image" />
+          <div class="popup-des">
+            <div class="rate">
+              <h4 id="popup-title"></h4>
+              <div class="bintang">
+                <i class="ri-star-fill"></i>
+                <span id="popup-rate"></span>
+              </div>
+            </div>
+            <p id="popup-location"></p>
+            <p id="popup-price"></p>
+            <hr />
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <span id="close-btn"><i data-feather="x"></i></span>
+        <div class="popup-scroll">
+          <img id="popup-image" src="" alt="Place Image" />
+          <div class="popup-des">
+            <div class="rate">
+              <h4 id="popup-title"></h4>
+              <div class="bintang">
+                <i class="ri-star-fill"></i>
+                <span id="popup-rate"></span>
+              </div>
+            </div>
+            <p id="popup-mini-text"></p>
+            <p id="popup-price"></p>
+            <hr />
+            <p id="popup-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popup Container -->
+    <div id="popup-destinasi" class="popup-destinasi hidden">
+      <div class="popup-content-destinasi">
+        <span id="close">&times;</span>
+        <div class="popup-description-destinasi">
+          <h4 id="popup-title-destinasi"></h4>
+          <span id="popup-rating-destinasi"></span>
+          <p id="popup-location-destinasi"></p>
+          <p id="popup-price-destinasi"></p>
+          <p id="popup-text-destinasi"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="contact-section" id="content">
+      <div class="title">
+        <h1>Hubungi Kami</h1>
+      </div>
+      <div class="contact-content">
+        <form class="form" action="https://formspree.io/f/mvgooeod" method="POST">
+          <p class="title">Kontak Kami</p>
+          <label class="message">
+            Berikan saran dan masukan mengenai website kami!
+          </label>
+          <label>
+            <input class="input" type="text" placeholder="" name="name" />
+            <span>Nama</span>
+          </label>
+
+          <label>
+            <input class="input" type="email" placeholder="" name="email" />
+            <span>Email</span>
+          </label>
+
+          <label>
+            <input class="input" type="text" placeholder="" name="message" />
+            <span>Pesan</span>
+          </label>
+          <button class="submit">Submit</button>
+        </form>
+        <div class="icon">
+          <img src="/assets/icon-2.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-content">
+      <div class="footer">
+        <div class="container">
+          <div class="content">
+            <div class="title-footer">
+              <img src="/assets/icon-1.png" alt="" />
+              <h2>TravGo</h2>
+            </div>
+            <div class="des">
+              <p>
+                TravGo adalah sebuah webiste yang memberikan informasi mengenai
+                destinasi wisata indah di kawasan Kabupaten Probolinggo.
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <div class="title-footer">
+              <h2>Akses Cepat</h2>
+            </div>
+            <div class="des">
+              <a href="#">Beranda</a>
+              <a href="#about">Teantang Kami</a>
+              <a href="#destinasi">Destinasi</a>
+            </div>
+          </div>
+          <div class="content">
+            <div class="title-footer">
+              <h2>Kontact Kami</h2>
+            </div>
+            <div class="des">
+              <span><i class="ri-instagram-line"></i>travgo_prob</span>
+              <span><i class="ri-mail-line"></i>travgo04s@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script js -->
+    <script src="popup.js"></script>
+    <script src="search.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const loading = document.getElementById("loading");
+        const content = document.getElementById("content");
+
+        // Sembunyikan halaman loading dan tampilkan konten utama
+        loading.style.display = "none";
+        content.style.display = "block";
+      });
+    </script>
+    <script>
+      var typed = new Typed("#text-typed", {
+        strings: [
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+          "Gunung",
+          "Danau",
+          "Pantai",
+          "Air Terjun",
+        ],
+        typeSpeed: 200,
+      });
+    </script>
+  </body>
+</html>
