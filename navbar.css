@@ -1,0 +1,88 @@
+:root {
+  --h1: #fff;
+  --p-light: #fff;
+  --p-dark: #000;
+  --primary: #e38100;
+  --hover-trans: 0.3s ease;
+  --hover-bg: 0.3s ease;
+  --dark-theme: #0a0a0a;
+  --dark-combo: #161616;
+  --h1: #fff;
+  --p-light: #fff;
+  --p-dark: #000;
+  --primary: #e38100;
+  --dark-prim: #d17905;
+
+  --hover-trans: 0.3s ease;
+  --hover-bg: 0.3s ease;
+
+  --ff-text: "Oswald", sans-serif;
+  --ff-header: "Days One", sans-serif;
+
+  --fs-1: 32px;
+  --fs-2: 24px;
+  --fs-3: 16px;
+  --fs-4: 14px;
+
+  --font-small: 12px;
+  --font-smaller: 10px;
+  --big-font: 36px;
+}
+
+.navbar {
+  max-width: 100%;
+  padding: 16px 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar-brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-brand img{
+    width: 8%;
+}
+
+.navbar .navbar-brand h1 {
+  color: var(--h1);
+  font-family: "Days One", sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #454545;
+}
+.navbar .navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  background: var(--primary);
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  box-shadow: 1px 1px 3px #454545;
+}
+.navbar-nav .navbar-link {
+  color: var(--p-light);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 300;
+  transition: var(--hover-trans);
+  -webkit-transition: var(--hover-trans);
+  -moz-transition: var(--hover-trans);
+  -ms-transition: var(--hover-trans);
+  -o-transition: var(--hover-trans);
+}
+.navbar-nav .navbar-link:hover {
+  color: var(--primary);
+}
+.navbar-brand span {
+  color: var(--primary);
+}
