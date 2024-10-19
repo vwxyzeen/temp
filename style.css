@@ -2165,7 +2165,7 @@ body {
     line-height: 1.2;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (min-width: 428px) {
   .home-page .home-content .up {
     display: flex;
     width: 100%;
